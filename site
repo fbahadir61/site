@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatih Oto Servis</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#111;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:32px;
+}
+
+.hero{
+background:#222;
+color:white;
+padding:60px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:28px;
+}
+
+.container{
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.service h3{
+margin-top:0;
+}
+
+.contact{
+background:#111;
+color:white;
+padding:40px;
+text-align:center;
+margin-top:40px;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+padding:15px 25px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
+
+footer{
+background:#000;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>Fatih Oto Servis</h1>
+<p>Araç Bakım ve ECU Yazılım Hizmetleri</p>
+</header>
+
+<section class="hero">
+<h2>Profesyonel Araç Bakım Hizmetleri</h2>
+<p>Motor bakımından ECU yazılımına kadar araçlarınız emin ellerde</p>
+</section>
+
+<div class="container">
+
+<h2>Hizmetlerimiz</h2>
+
+<div class="services">
+
+<div class="service">
+<h3>Yağ ve Filtre Bakımı</h3>
+<p>Motor yağı, yağ filtresi, hava filtresi ve polen filtresi değişimi.</p>
+</div>
+
+<div class="service">
+<h3>Fren Disk & Balata</h3>
+<p>Fren diskleri ve balataların profesyonel şekilde değişimi.</p>
+</div>
+
+<div class="service">
+<h3>DPF Temizliği</h3>
+<p>Partikül filtresi temizliği ve rejenerasyon işlemleri.</p>
+</div>
+
+<div class="service">
+<h3>ECU Yazılım</h3>
+<p>Stage 1 yazılım, DPF / EGR / AdBlue iptali.</p>
+</div>
+
+<div class="service">
+<h3>Gizli Özellik Açma</h3>
+<p>VCDS ile gizli özellik aktivasyonu ve kodlama işlemleri.</p>
+</div>
+
+<div class="service">
+<h3>Arıza Tespiti</h3>
+<p>Profesyonel cihazlarla detaylı arıza tespiti.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="contact">
+
+<h2>İletişim</h2>
+
+<p>Hizmet almak için bize WhatsApp üzerinden ulaşabilirsiniz.</p>
+
+<a class="whatsapp" href="https://wa.me/905000000000">
+WhatsApp ile İletişime Geç
+</a>
+
+</div>
+
+<footer>
+
+<p>© 2026 Fatih Oto Servis</p>
+
+</footer>
+
+</body>
+</html>
